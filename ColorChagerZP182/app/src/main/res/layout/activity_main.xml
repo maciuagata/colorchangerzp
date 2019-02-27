@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/relativeLayout"
+   >
+<TextView
+    android:id="@+id/textForUser"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/text_for_user"
+    android:layout_centerHorizontal="true"
+    android:textSize="20sp"
+    android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:id="@+id/buttonRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_red"
+            android:layout_weight="1"
+            android:layout_marginTop="28dp"
+
+            />
+        <Button
+            android:id="@+id/buttonGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_green"
+            android:layout_weight="1"
+            android:layout_marginTop="28dp"/>
+
+        <Button
+            android:id="@+id/buttonBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_blue"
+            android:layout_weight="1"
+            android:layout_marginTop="28dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
